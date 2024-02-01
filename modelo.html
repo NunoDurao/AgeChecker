@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+
+    <section>
+        <div>
+            <p> Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fam">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+            
+
+        </div>
+
+        <div id="res">
+            Preenca os dados acima para ver o resultado!
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy NunoDurão Web Dev</p>
+    </footer>
+    <script src="script.js"></script>
+  
+</body>
+</html>
